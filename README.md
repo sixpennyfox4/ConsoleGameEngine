@@ -8,6 +8,9 @@ A C++ header only console game engine.
 >
 > Only works on windows.
 
+> [!WARNING]
+> Includes Windows.h which may interfere with other third party libraries!
+
 Simple examples
 ---------------
 
