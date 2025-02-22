@@ -21,7 +21,8 @@ int main() {
 		if (GetAsyncKeyState('D')) plr.position.x += 2;
 
 		game.drawOutline(COLOR_GREEN);
-		game.drawText(Vector2{ 5, 20 }, score);
+		std::cout << "Score: " << score;
+
 		game.drawRectangleRec(movingRec, true, COLOR_RED);
 		game.drawRectangleRec(plr, true, COLOR_BLUE);
 
