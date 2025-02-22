@@ -7,6 +7,8 @@ A C++ header only console game engine.
 > This game engine is still in early development.
 >
 > Only works on windows.
+>
+> Also its a library instead of game engine but too lazy to rename.
 
 > [!WARNING]
 > Includes Windows.h which may interfere with other third party libraries!
